@@ -1,13 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+
+    <style>
+      .apple:nth-of-type(3n - 2) {
+        background: red;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
+
+    <div class="table">
+      <plate />
+      <plate>
+        <pickle class="small" />
+      </plate>
+      <plate>
+        <div class="apple">11</div>
+      </plate>
+      <plate />
+      <plate>
+        <div class="apple">22</div>
+      </plate>
+      <plate />
+    </div>
   </body>
 </html>
