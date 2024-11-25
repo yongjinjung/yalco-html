@@ -39,7 +39,7 @@ body {
   font-family: "Noto Sans KR", sans-serif;
 
   /* 개발용 설정 */
-  min-height: 350vh;
+  min-height: 100vh;
 }
 
 h1,
